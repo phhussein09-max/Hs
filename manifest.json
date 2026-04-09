@@ -1,95 +1,14 @@
 {
-  "name": "Pharmacy Manager Pro",
+  "name": "مدير الصيدلية برو",
   "short_name": "Pharmacy Pro",
-  "description": "تطبيق متكامل لإدارة الأدوية في الصيدلية مع إشعارات وتصدير ومسح باركود",
-  "start_url": "index.html",
+  "description": "تطبيق متكامل لإدارة أدوية الصيدلية مع دعم الباركود والإشعارات والنسخ الاحتياطي",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#2c7da0",
-  "background_color": "#f8f9fa",
-  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
   "lang": "ar",
   "dir": "rtl",
-  "icons": [
-    {
-      "src": "icons/icon-72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "كل الأدوية",
-      "short_name": "الأدوية",
-      "description": "عرض جميع الأدوية العامة",
-      "url": "index.html?page=all",
-      "icons": [{ "src": "icons/shortcut-all.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "صيدليتي",
-      "short_name": "صيدلية",
-      "description": "أدوية الصيدلية الخاصة",
-      "url": "index.html?page=pharmacy",
-      "icons": [{ "src": "icons/shortcut-pharmacy.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "إضافة دواء",
-      "short_name": "إضافة",
-      "description": "إضافة دواء جديد إلى الصيدلية",
-      "url": "index.html?page=add",
-      "icons": [{ "src": "icons/shortcut-add.png", "sizes": "96x96" }]
-    }
-  ],
-  "categories": ["health", "medical", "productivity"],
-  "screenshots": [
-    {
-      "src": "screenshots/home.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "platform": "android",
-      "label": "الشاشة الرئيسية"
-    }
-  ]
+  "orientation": "portrait-primary",
+  "categories": ["medical", "health", "productivity"],
+  "prefer_related_applications": false
 }
